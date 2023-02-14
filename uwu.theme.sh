@@ -1,9 +1,15 @@
 #! bash oh-my-bash.module
+#
 # Adapt to your liking. Tried to make it as modular as possible
+# Emoticons based on Kitsune theme
+# 
 # NOTE: Create pill adds space at the end to accomodate for hidden pills
+#
 # Also yeah, colors are global. Couldn't be bothered to fix it.
+#
 # SEE: Adapt text color to your liking based on your theme. Sometimes BACKGROUND is not contrasting enough
 # You could add another argument with the text color value
+#
 # TODO: Bold color handling?
 # prompt theming
 
@@ -87,12 +93,15 @@ function create_uwu() {
   # * - err
 
   if ((status == 0)); then  
-    UWU=$LMAGENTA$OPEN$INV"^_^";
+    UWU=$LGREEN$OPEN$INV"^_^";
   elif (( status == 127)); then
     UWU=$LBLUE$OPEN$INV"∘_°";
   else
     UWU=$LRED$OPEN$INV"T_T";
   fi
+
+Supports also coloring ram based on free memory
+
 
   echo -e "$UWU$RINV$CLOSE\n"➤ "$RESET"
 
