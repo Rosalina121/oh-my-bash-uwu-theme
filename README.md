@@ -1,7 +1,8 @@
 # oh-my-bash-uwu-theme
 _Documentation is W.I.P._
 
-Prompt theme for Oh My Bash!
+Requires Nerd Font compatible font
+Prompt theme for Oh My Bash! 
 
 ![image](https://user-images.githubusercontent.com/15912902/218829815-84d85e3a-768e-4ad8-a8f1-1f1923d60fdb.png)
 Modular pills for Oh My Bash! 
